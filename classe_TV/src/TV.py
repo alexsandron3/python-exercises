@@ -8,3 +8,7 @@ class TV:
     def aumentar_volume(self):
         if self._volume < 99:
             self._volume += 1
+
+    def diminuir_volume(self):
+        if self._volume > 0:
+            self._volume -= 1
