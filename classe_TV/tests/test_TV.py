@@ -19,3 +19,7 @@ def test_if_increase_volume_work_as_expected():
         tv.aumentar_volume()
 
     assert tv._volume == 60
+
+    for _ in range(500):
+        tv.aumentar_volume()
+    assert tv._volume == 99
