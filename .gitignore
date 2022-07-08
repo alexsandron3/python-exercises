@@ -1,1 +1,3 @@
-./classe_TV/venv/
+/**/
+/**/*.venv/
+/**.venv/
